@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .border-custom-red {
+      border-color: rgb(220, 38, 38);
+    }
+    .bg-custom-red {
+      background-color: rgb(220, 38, 38);
+    }
+    .bg-custom-red-light {
+      background-color: rgb(254, 242, 242);
+    }
+    .text-custom-red {
+      color: rgb(220, 38, 38);
+    }
+    .hover\:bg-custom-red-dark:hover {
+      background-color: rgb(185, 28, 28);
+    }
+    .hover\:bg-custom-red-hover:hover {
+      background-color: rgb(254, 226, 226);
+    }
+  </style>
+</head>
+<body class="bg-white min-h-screen p-4 py-12">
+
+  <div class="mx-auto">
+    <h2 class="text-3xl font-light text-black text-center mb-12">Programmer Portfolio</h2>
+
+    <div class="grid grid-cols-1 gap-8">
+
+      <!-- Card 1 -->
+      <div class="bg-white border-2 border-custom-red rounded-lg p-8 shadow-sm">
+        <div class="flex flex-col items-center">
+          <img src="https://picsum.photos/200/200?random=1" 
+               class="w-40 h-40 rounded-full border-4 border-custom-red mb-4"
+               alt="Profile">
+
+          <h2 class="text-2xl font-light text-black">Student Name</h2>
+          <p class="text-custom-red mt-1 font-medium">Junior Developer | วิทยาลัยเทคนิค</p>
+
+          <p class="text-gray-800 mt-4 leading-relaxed text-center">
+            👋 สวัสดีครับ ผมเป็นนักเรียนสายไอทีที่สนใจเขียนโปรแกรม  
+            ชอบทำเว็บแอป และกำลังเรียนรู้ JavaScript, Node.js, Python
+          </p>
+
+          <h5 class="text-sm font-medium text-black mt-6 mb-3">Skills</h5>
+          <div class="flex flex-wrap gap-2 mb-6 justify-center">
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">HTML</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">CSS</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">JavaScript</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Bootstrap</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Python</span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3 w-full">
+            <a href="#" class="px-6 py-2 bg-custom-red text-white rounded-lg hover:bg-custom-red-dark transition text-center font-medium">View Projects</a>
+            <a href="#" class="px-6 py-2 border-2 border-custom-red text-custom-red rounded-lg hover:bg-custom-red-hover transition text-center font-medium">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white border-2 border-custom-red rounded-lg p-8 shadow-sm">
+        <div class="flex flex-col items-center">
+          <img src="https://picsum.photos/200/200?random=2" 
+               class="w-40 h-40 rounded-full border-4 border-custom-red mb-4"
+               alt="Profile">
+
+          <h2 class="text-2xl font-light text-black">Developer Two</h2>
+          <p class="text-custom-red mt-1 font-medium">Full Stack Developer | มหาวิทยาลัย</p>
+
+          <p class="text-gray-800 mt-4 leading-relaxed text-center">
+            💻 สวัสดีครับ ผมเป็นนักพัฒนาเว็บที่มีประสบการณ์  
+            เชี่ยวชาญด้าน React, Node.js และ Database Design
+          </p>
+
+          <h5 class="text-sm font-medium text-black mt-6 mb-3">Skills</h5>
+          <div class="flex flex-wrap gap-2 mb-6 justify-center">
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">React</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Node.js</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">MongoDB</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">TypeScript</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Git</span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3 w-full">
+            <a href="#" class="px-6 py-2 bg-custom-red text-white rounded-lg hover:bg-custom-red-dark transition text-center font-medium">View Projects</a>
+            <a href="#" class="px-6 py-2 border-2 border-custom-red text-custom-red rounded-lg hover:bg-custom-red-hover transition text-center font-medium">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white border-2 border-custom-red rounded-lg p-8 shadow-sm">
+        <div class="flex flex-col items-center">
+          <img src="https://picsum.photos/200/200?random=3" 
+               class="w-40 h-40 rounded-full border-4 border-custom-red mb-4"
+               alt="Profile">
+
+          <h2 class="text-2xl font-light text-black">Designer Pro</h2>
+          <p class="text-custom-red mt-1 font-medium">UI/UX Designer | เอเจนซี่</p>
+
+          <p class="text-gray-800 mt-4 leading-relaxed text-center">
+            🎨 สวัสดีค่ะ ดิฉันเป็นนักออกแบบ UI/UX  
+            สนใจการออกแบบที่ใช้งานง่ายและสวยงาม
+          </p>
+
+          <h5 class="text-sm font-medium text-black mt-6 mb-3">Skills</h5>
+          <div class="flex flex-wrap gap-2 mb-6 justify-center">
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Figma</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Adobe XD</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Photoshop</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Illustrator</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">CSS</span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3 w-full">
+            <a href="#" class="px-6 py-2 bg-custom-red text-white rounded-lg hover:bg-custom-red-dark transition text-center font-medium">View Projects</a>
+            <a href="#" class="px-6 py-2 border-2 border-custom-red text-custom-red rounded-lg hover:bg-custom-red-hover transition text-center font-medium">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white border-2 border-custom-red rounded-lg p-8 shadow-sm">
+        <div class="flex flex-col items-center">
+          <img src="https://picsum.photos/200/200?random=4" 
+               class="w-40 h-40 rounded-full border-4 border-custom-red mb-4"
+               alt="Profile">
+
+          <h2 class="text-2xl font-light text-black">Data Analyst</h2>
+          <p class="text-custom-red mt-1 font-medium">Data Scientist | สตาร์ทอัพ</p>
+
+          <p class="text-gray-800 mt-4 leading-relaxed text-center">
+            📊 สวัสดีครับ ผมเชี่ยวชาญด้านการวิเคราะห์ข้อมูล  
+            และ Machine Learning เพื่อสร้างคุณค่าจากข้อมูล
+          </p>
+
+          <h5 class="text-sm font-medium text-black mt-6 mb-3">Skills</h5>
+          <div class="flex flex-wrap gap-2 mb-6 justify-center">
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Python</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Pandas</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">SQL</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">TensorFlow</span>
+            <span class="px-4 py-1 bg-custom-red-light text-custom-red rounded-full text-sm border border-custom-red">Tableau</span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3 w-full">
+            <a href="#" class="px-6 py-2 bg-custom-red text-white rounded-lg hover:bg-custom-red-dark transition text-center font-medium">View Projects</a>
+            <a href="#" class="px-6 py-2 border-2 border-custom-red text-custom-red rounded-lg hover:bg-custom-red-hover transition text-center font-medium">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
